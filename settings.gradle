@@ -1,2 +1,3 @@
 rootProject.name = 'setting-InteliJ'
+include 'src'
 

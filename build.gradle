@@ -19,6 +19,7 @@ apply plugin : 'io.spring.dependency-management'
 
 group 'com.study.first'
 version '1.0-SNAPSHOT'
+sourceCompatibility = 1.8
 
 repositories {
     mavenCentral()
@@ -26,5 +27,7 @@ repositories {
 
 dependencies {
     compile('org.springframework.boot:spring-boot-starter-web')
+    compileOnly 'org.projectlombok:lombok:1.18.10'
+    annotationProcessor 'org.projectlombok:lombok:1.18.10'
     testCompile('org.springframework.boot:spring-boot-starter-test')
 }
