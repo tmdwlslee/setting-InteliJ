@@ -1,0 +1,8 @@
+com/study/first/springboot/web/HelloControllerTest.java
+ com.study.first.springboot.web.HelloControllerTest
+com/study/first/springboot/web/dto/HelloResponseDtoTest.java
+ com.study.first.springboot.web.dto.HelloResponseDtoTest
+com/study/first/springboot/domain/posts/PostsRepositoryTest.java
+ com.study.first.springboot.domain.posts.PostsRepositoryTest
+com/study/first/springboot/web/PostsApiControllerTest.java
+ com.study.first.springboot.web.PostsApiControllerTest
