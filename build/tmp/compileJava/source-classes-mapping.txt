@@ -1,9 +1,9 @@
 com/study/first/springboot/web/dto/HelloResponseDto.java
  com.study.first.springboot.web.dto.HelloResponseDto
-com/study/first/springboot/domain/posts/PostRepository.java
- com.study.first.springboot.domain.posts.PostRepository
-com/study/first/springboot/web/HelloController.java
- com.study.first.springboot.web.HelloController
+com/study/first/springboot/web/dto/PostsResponseDto.java
+ com.study.first.springboot.web.dto.PostsResponseDto
+com/study/first/springboot/Application.java
+ com.study.first.springboot.Application
 com/study/first/springboot/web/dto/PostsUpdateRequestDto.java
  com.study.first.springboot.web.dto.PostsUpdateRequestDto
  com.study.first.springboot.web.dto.PostsUpdateRequestDto$PostsUpdateRequestDtoBuilder
@@ -12,14 +12,18 @@ com/study/first/springboot/domain/BaseTimeEntity.java
 com/study/first/springboot/domain/posts/Posts.java
  com.study.first.springboot.domain.posts.Posts
  com.study.first.springboot.domain.posts.Posts$PostsBuilder
-com/study/first/springboot/service/posts/PostsService.java
- com.study.first.springboot.service.posts.PostsService
+com/study/first/springboot/web/HelloController.java
+ com.study.first.springboot.web.HelloController
 com/study/first/springboot/web/dto/PostsSaveRequestDto.java
  com.study.first.springboot.web.dto.PostsSaveRequestDto
  com.study.first.springboot.web.dto.PostsSaveRequestDto$PostsSaveRequestDtoBuilder
-com/study/first/springboot/Application.java
- com.study.first.springboot.Application
-com/study/first/springboot/web/dto/PostsResponseDto.java
- com.study.first.springboot.web.dto.PostsResponseDto
+com/study/first/springboot/web/dto/PostsListResponseDto.java
+ com.study.first.springboot.web.dto.PostsListResponseDto
+com/study/first/springboot/domain/posts/PostRepository.java
+ com.study.first.springboot.domain.posts.PostRepository
+com/study/first/springboot/service/posts/PostsService.java
+ com.study.first.springboot.service.posts.PostsService
+com/study/first/springboot/web/IndexController.java
+ com.study.first.springboot.web.IndexController
 com/study/first/springboot/web/PostsApiController.java
  com.study.first.springboot.web.PostsApiController
