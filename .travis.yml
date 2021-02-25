@@ -35,6 +35,7 @@ deploy:
   wait-until-deployed:true
 
 
+
 # CI 실행완료 시 메일로 알람
 notifications:
   email:
