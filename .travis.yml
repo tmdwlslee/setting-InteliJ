@@ -23,6 +23,7 @@ before_deploy:
   - mkdir -p deploy
   - mv setting-InteliJ.zip deploy/setting-InteliJ.zip
 
+
 deploy:
   provider: s3
   access_key_id: $AWS_ACCESS_KEY
@@ -33,7 +34,6 @@ deploy:
   acl: private
   local_dir: deploy
   wait-until-deployed:true
-
 
 
 # CI 실행완료 시 메일로 알람
